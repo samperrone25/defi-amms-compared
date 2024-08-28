@@ -1,4 +1,4 @@
-This small notebook compares a Constant Product Automated Market Maker (CPAMM) using Uniswap v1 math to one using [v3](https://uniswap.org/whitepaper-v3.pdf) math. (The v3 [whitepaper](https://uniswap.org/whitepaper-v3.pdf) will explain both)
+This small notebook compares a Constant Product Automated Market Maker (CPAMM) using Uniswap v1 math to one using Uniswap [v3](https://uniswap.org/whitepaper-v3.pdf) math. (The v3 [whitepaper](https://uniswap.org/whitepaper-v3.pdf) will explain both)  
 The v1 AMM is simple enough, the product of the quantities of each price remains constant with each trade. Liquidity is added to the pool in an even ratio always.
 The v3 AMM is more involved CPAMM, ticks are used to demark tiny discrete price values between which concentrated liquidity positions can be taken. The AMM will then trade like a v1 AMM but with a higher effective liquidity while the price is in the range of a position, allowing it to reduce slippage.  
 
