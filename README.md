@@ -9,4 +9,4 @@ Slippage is noticeably less on the v3 AMM due to concentrated liquidity.
 ![image](https://github.com/user-attachments/assets/b626f8c4-3e71-4b35-a48b-8cece5bfbc25)  
 ![image](https://github.com/user-attachments/assets/a9e52903-666d-4b9b-9c14-59a36465ecf1)  
   
-Feel free to adopt the code and play around with the inputs to each AMM
+Feel free to adopt the code and play around with the inputs to each AMM. Note that the v3 implementation is simplified and doesn't support multiple concentrated liquidity positions (yet)
